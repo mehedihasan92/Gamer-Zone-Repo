@@ -8,7 +8,8 @@
     font-family: 'Work Sans', sans-serif;
 }
 
-.text-color-Linear{
+.text-color-Linear , 
+.text-title-color{
     color: #FF42A5;
 }
 
@@ -127,4 +128,149 @@ nav li a{
 
 .banner img{
     width: 50%;
+}
+
+/* online games funny vedio section styles */
+
+.o-g-f-v-container{
+    margin: 100px;
+}
+
+.o-g-f-v-title{
+    color: #0B0223;
+    font-size: 30px;
+    font-weight: 700;;
+    text-align: center;
+}
+.title-color{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.o-g-f-v-description{
+    color: #534C64;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.image-container{
+    display: flex;
+    gap: 15px;
+
+}
+.game-pic{
+    width: 300px;
+}
+.game-pic p{
+    color: #534C64;
+    font-size: 14px;
+    font-weight: 400;
+}
+.game-pic img{
+    width: 250px;
+}
+
+/* play instantly section styles */
+
+.play-instantly{
+    margin-left: 220px;
+    margin-right: 90px;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+.text-content{
+    padding-top: 80px;
+}
+
+.text-title{
+    text-align: right;
+    font-size: 35px;
+    font-weight: 700;
+}
+.text-description{
+    color: #534C64;
+    text-align: right;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.play-instantly-pic-55{
+    width: 450px;
+    height: 60%;
+}
+
+.play-instantly-pic-66{
+    width: 220px;
+    height: 280px;
+    padding: 40px;
+    text-align: center;
+    position: relative;
+    bottom: 250px;
+    right: 200px;
+    
+}
+
+/*card section styles  */
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap ;
+    padding: 120px 60px;
+    padding-left:200px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+
+}
+.card-container a{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 20px;
+    text-decoration: none;
+    align-items: center;
+    padding-bottom: 30px;
+
+}
+.card-container a  p{
+    align-items: center;
+    padding-left: 20px;
+    border-radius: 50px;
+    background: #FFF;
+    color: #0B0223;
+    font-size: 12px;
+    font-weight: 600;
+}
+.card-container a img{
+    width: 40px;
+}
+
+
+
+
+
+
+
+
+
+/*  mobile device query styles */
+@media screen and (max-width:576px) {
+    nav,
+    nav .logo,
+    nav > ul,
+    .banner {
+        flex-direction: column;
+
+    }
+    nav{
+        
+    }
+    nav img{
+        width: 100%;
+    }
+    .banner{
+        padding: 20px;
+        margin: 20px;
+    }
 }
