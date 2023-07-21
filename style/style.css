@@ -1,0 +1,130 @@
+/* work sans fonts from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;600;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+/* shared styles */
+
+*{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.text-color-Linear{
+    color: #FF42A5;
+}
+
+/* header styles */
+header{
+    background-color: white;
+}
+
+nav{
+    padding: 20px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav .logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+nav img{
+    width:60px;
+    height: 30px;
+}
+
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+
+.follow{
+    min-height: 25px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.red-youtube{
+    color: red;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+nav li{
+    list-style: none;
+    margin-left: 20px;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+nav li a{
+    text-decoration: none;
+    color: #3C354F;
+}
+
+/* banner styles */
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:0px 150px 0 0px;
+    padding-left: 150px;
+
+}
+.banner-content{
+
+}
+
+.banner-title{
+    color: #0B0223;
+    font-size: 1.8rem;
+    font-weight: 600;
+    
+}
+.main-title{
+    font-size: 3.5rem;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.banner-description{
+    color: #534C64;
+    font-size: 14px;
+    font-weight: 500;
+
+
+}
+.banner-btn-1{
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    border: 0;
+    padding: 10px 20px;
+    }
+
+.banner-btn-2{
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 48px;
+    background: #4EC5F7;
+    border: 0;
+    padding: 10px 20px;
+    margin-left: 10px;
+    }
+
+.banner img{
+    width: 50%;
+}
