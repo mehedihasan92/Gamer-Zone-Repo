@@ -18,9 +18,10 @@ header{
     background-color: white;
 }
 
-nav{
+nav {
     padding: 20px 150px;
     display: flex;
+    /* justify-content: center; */
     justify-content: space-between;
     align-items: center;
 
@@ -28,6 +29,7 @@ nav{
 
 nav .logo{
     display: flex;
+    /* justify-content: center; */
     align-items: center;
     gap: 10px;
 
@@ -40,6 +42,7 @@ nav img{
 
 nav > ul{
     display: flex;
+    /* justify-content: center; */
     align-items: center;
 }
 
@@ -48,6 +51,7 @@ nav > ul{
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
     display: flex;
+    /* justify-content: center; */
     align-items: center;
     padding: 10px;
 }
@@ -75,8 +79,7 @@ nav li a{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin:0px 150px 0 0px;
-    padding-left: 150px;
+    padding:0px 150px 0 150px;
 
 }
 .banner-content{
@@ -126,6 +129,11 @@ nav li a{
     margin-left: 10px;
     }
 
+.banner a{
+    text-decoration: none;
+    color: #FFF;
+}
+
 .banner img{
     width: 50%;
 }
@@ -133,7 +141,7 @@ nav li a{
 /* online games funny vedio section styles */
 
 .o-g-f-v-container{
-    margin: 100px;
+    padding: 100px;
 }
 
 .o-g-f-v-title{
@@ -158,6 +166,7 @@ nav li a{
 }
 .image-container{
     display: flex;
+    justify-content: center;
     gap: 15px;
 
 }
@@ -176,12 +185,13 @@ nav li a{
 /* play instantly section styles */
 
 .play-instantly{
-    margin-left: 220px;
-    margin-right: 90px;
+    padding-left: 220px;
+    padding-right: 90px;
     display: flex;
+    /* justify-content: center; */
     justify-content: space-between;
-    /* align-items: center; */
 }
+
 .text-content{
     padding-top: 80px;
 }
@@ -218,16 +228,16 @@ nav li a{
 
 .card-container{
     display: flex;
+    justify-content: center;
     flex-wrap: wrap ;
-    padding: 120px 60px;
-    padding-left:200px;
+    padding: 100px 0px;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
 
 }
 .card-container a{
     display: flex;
     flex-wrap: wrap;
-    padding-left: 20px;
+    padding-left: 60px;
     text-decoration: none;
     align-items: center;
     padding-bottom: 30px;
@@ -246,14 +256,73 @@ nav li a{
     width: 40px;
 }
 
+/* footer section styles */
+
+footer{
+    background-color: rgb(165, 186, 191);
+
+}
+
+.footer-section {
+
+}
+
+footer .logo{
+    /* padding: 60px 500px 20px 500px; */
+    padding: 60px 0 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+.footer-description{
+    display: flex;
+    gap: 30px;
+    /* padding:0px 250px 10px 320px; */
+    padding-bottom: 20px;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 600;
+}
+.footer-description a{
+    text-decoration: none;
+    color:black;
+}
+
+.btn-container{
+    /* padding: 10px 450px 20px 450px; */
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+.btn-container > a{
+    padding-left: 25px;
+}
+
+.footer-text{
+    display: flex;
+    justify-content: center;
 
 
+}
 
+.footer-text a{
+    text-decoration: none;
+    padding-left: 30px;
+    color: black;
+    font-size: 12px;
+    font-weight: 500;
+}
 
-
-
-
-
+.footer-last-text{
+    color:black;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+    padding-bottom: 80px
+;
+}
 /*  mobile device query styles */
 @media screen and (max-width:576px) {
     nav,
